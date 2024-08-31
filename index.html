@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proejcts</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>@import url(stylo.css);</style>
+</head>
+<body>
+        <header class="bg-cyan-600 px-5 sticky top-0  backdrop-blur-20">
+            <div class="relative">
+
+
+            <nav class="flex justify-between px-10 py-2.5 bg-transparent">
+                <div class="flex logo items-center space-x-5">
+                    <img class="w-10 h-full rounded-full" src="Logo/anime.jpg" alt="">
+                    <h1 class="text-lg font-black font-sans text-cyan-400 ">M<span class="text-cyan-200">Y</span><span class="text-cyan-800">W</span>.<span class="text-cyan-300">Clouds</span></h1>
+                </div>
+                <ol class="Navbar justify-evenly w-1/3 text-base items-center font-mono font-bold text-blue-200 hidden lg:flex">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Login</a></li>
+                </ol>
+                <div class=" content-center lg:hidden ">
+                    
+                    <a id="Activs" onclick="Showing() " value="1" ><img id="Rot-an" class=" w-8 " src="Logo/settings.png" alt="Menu-bar"></a>
+                    <div id="shown" class="hidden menu-bar absolute top-full w-full right-0 h-auto ">
+                        <div class="Menvis transition text-cyan-200 text-sm font-bold  bg-transparent backdrop-blur-2xl border-2 flex justify-evenly list-none py-4 rounded-xl ">
+                            <h1 class="absolute right-10 top-2 text-3xl cursor-pointer" onclick="Closing()">X</h1>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Login</a></li>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            </nav>
+        </header>
+    </div>
+    <section class="bg-cyan-700">
+        <main class="container mx-auto px-20 p-10 h-auto lg:h-screen sm:p-10">
+            <h1 class="text-center font-black text-cyan-200 font-sans mt-10 text-3xl" >3 Top-Recomendation Anime</h1>
+            <div class="List mt-10 h-2/3  grid grid-cols-1 md:grid-cols-3 gap-5 items-center ">
+                <div><a href="https://youtu.be/EEqSF319v8g?si=Rs1GMObQTrbvv3t8"><figure>
+                    <img src="Images/An1.jpg" alt="Rawr">
+                </figure></a></div>
+                <div><a href="https://youtu.be/EEqSF319v8g?si=Rs1GMObQTrbvv3t8"><figure>
+                    <img src="Images/An2.jpg" alt="Rawr">
+                </figure></a></div>
+                <div><a href="https://youtu.be/EEqSF319v8g?si=Rs1GMObQTrbvv3t8"><figure>
+                    <img src="Images/An3.jpg" alt="Rawr">
+                </figure></a></div>
+            </div>
+        </main>
+
+
+    </section>
+    <footer class="bg-cyan-900 px-20">
+        <div class="foot flex justify-evenly py-10">
+
+            <div class="Reference font-bold">
+                <label class="text-lg" for="footer_Ref">Reference</label>
+                <ol class="footer text-sm py-2.5">
+                    <li><a href="https://www.youtube.com/watch?v=Zo4GITmSrfM">Home</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Zo4GITmSrfM">Shop</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Zo4GITmSrfM">Login</a></li>
+                </ol>
+            </div>
+            <div class="help font-bold">
+                <label class="text-lg" for="footer_video">Video</label>
+                <ol class="footer text-sm py-2.5">
+                    <li><a href="https://www.youtube.com/watch?v=Zo4GITmSrfM">Tutorials</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Zo4GITmSrfM">Vlogs</a></li>
+                </ol>
+            </div>
+            <div class="help font-bold">
+                <label class="text-lg" for="footer_Cs">Contacs</label>
+                <ol class="footer text-sm py-2.5">
+                    <li><a href="https://www.youtube.com/watch?v=Zo4GITmSrfM">Help</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Zo4GITmSrfM">Abouts</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Zo4GITmSrfM">Contacs</a></li>
+                </ol>
+            </div>
+        </div>
+            <p class="flex justify-center border-t-2 rounded-sm p-5 text-sm font-extralight text-white">&copy; Copy Right By Mytz.id</p>
+
+    </footer>
+    <script src="instruk.js"></script>
+</body>
+</html>

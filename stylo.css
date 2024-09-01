@@ -6,22 +6,23 @@
     translate: -0px -2.5px;
     transform: scale(1.2);
     color: #acc6c7;
-    text-decoration: underline rgb(87, 208, 255);
+    text-decoration: underline rgb(48, 103, 124);
 }
 
 .Navbar> li:hover , .Navbar > li::after {
 
     translate: -0px -2.5px;
     transform: scale(1.2);
-    transform: rotate(180deg);
     color: #acc6c7;
-    text-decoration: underline rgb(30, 107, 138);
+    text-decoration: underline rgb(8, 155, 212);
 }
+
 
 
 .Menvis > li:hover {
     color: cadetblue;
 }
+
 
 .footer > li,label {
     padding: 2px;
@@ -42,9 +43,10 @@
 
 #Rot-an:active {
     position: relative;
-    animation-duration: 20ms;
-    animation: rotate 10ms linear infinite;
+    animation: rotate 25ms ease infinite;
 }
+
+
 
 @keyframes rotate {
     0% {transform: rotate(0deg);}

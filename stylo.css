@@ -1,0 +1,52 @@
+.Navbar> li {
+    transition: 0.5s ease;
+}
+.Navbar> li:hover , .Navbar > li::before {
+    transition: 2s;
+    translate: -0px -2.5px;
+    transform: scale(1.2);
+    color: #acc6c7;
+    text-decoration: underline rgb(87, 208, 255);
+}
+
+.Navbar> li:hover , .Navbar > li::after {
+
+    translate: -0px -2.5px;
+    transform: scale(1.2);
+    transform: rotate(180deg);
+    color: #acc6c7;
+    text-decoration: underline rgb(30, 107, 138);
+}
+
+
+.Menvis > li:hover {
+    color: cadetblue;
+}
+
+.footer > li,label {
+    padding: 2px;
+    color: #90bdbf;
+}
+
+.footer>li:hover {
+    
+    transition: 5s;
+    text-decoration: underline;
+    color: #acc6c7;
+}
+
+#Rot-an {
+    cursor: pointer;
+    
+}
+
+#Rot-an:active {
+    position: relative;
+    animation-duration: 20ms;
+    animation: rotate 10ms linear infinite;
+}
+
+@keyframes rotate {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(180deg);}
+}
